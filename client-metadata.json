@@ -1,0 +1,10 @@
+{
+  "client_id": "https://raw.githubusercontent.com/ozarator/kimi-oauth-client/main/client-metadata.json",
+  "client_name": "Kimi Work CAD Agent",
+  "client_uri": "https://github.com/ozarator/kimi-oauth-client",
+  "redirect_uris": ["http://127.0.0.1:8917/callback", "http://localhost:8917/callback"],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "scope": "mcp:read mcp:write offline_access",
+  "token_endpoint_auth_method": "none"
+}
